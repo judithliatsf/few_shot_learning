@@ -1,0 +1,15 @@
+# the minimal environment required in staging, see https://docs.databricks.com/release-notes/runtime/6.4ml.html
+#  for training environment on Databricks
+# add package specific dependencies under `setup.py`
+name: few-shot-learning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7.5
+  - numpy
+  - scikit-learn
+  - coverage
+  - unittest-xml-reporting
+  - pip
+  - pip:
+    - -r file:requirements.txt
