@@ -1,0 +1,11 @@
+{
+  "labels": [0, 1],
+  "input_length": 60,
+  "lstm_size": 128,
+  "embedding_size": 1024,
+  "dropout": 0.5,
+  "name": "elmo-bi-lstm",
+  "trainable": true,
+  "batch_size": 32,
+  "epochs": 1
+}
